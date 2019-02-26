@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+/*FONTS*/
+
+body, p, span, div {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.font-color-darkest {
+    color: #606165;
+}
+
+.font-color-dark {
+    color: #83848F;
+}
+
+.font-color-light {
+    color: ##DFE0E8;
+}
+
+.font-color-lightest {
+    color: white;
+}
+
+/*LAYOUT*/
+body {
+    margin: 0;
+    
+    background-color: #444447;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}

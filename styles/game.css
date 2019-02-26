@@ -1,0 +1,66 @@
+#canvas {
+    width: 100%;
+
+    position: relative;    
+
+    background-color: #444447;
+
+    height: 99vh;
+}
+
+#canvas.ingame {
+    cursor: none;
+
+    /*    height: 99vh;*/
+}
+
+#canvas.menu {
+    cursor: default;
+    /*    height: 90vh;*/
+}
+
+#menu {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+
+    background-color: #242426;
+
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+#menu.ingame {
+    height: 0px;
+}
+
+#menu.menu {
+    height: 25vh;
+}
+
+#paddle {
+    height: 10%;
+    width: 10%;
+
+    fill: black;
+}
+
+.element-brick {
+    stroke-width: 10px;
+}
+
+.element-brick.wear-level-3 {
+    fill: #d30000;
+    stroke: #9b0000;
+}
+
+.element-brick.wear-level-2 {
+    fill: #9b0000;
+    stroke: #7f0000;
+}
+
+.element-brick.wear-level-1 {
+    fill: #7f0000;
+    stroke: #590000;
+}
