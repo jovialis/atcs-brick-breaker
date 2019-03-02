@@ -55,9 +55,9 @@ export default class GameManager {
 	loadLevel(num) {
 		// Clear level out
 		this.paddle.reset();
-		this.ball.positionOverPaddle(this.paddle);
+		this.ball.resetMovement();
 
-		// return;
+		this.ball.positionOverPaddle(this.paddle);
 
 		this.clearBricks();
 
