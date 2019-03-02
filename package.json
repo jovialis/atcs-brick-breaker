@@ -5,6 +5,6 @@
 		"express": "^4.16.4"
 	},
 	"scripts": {
-		"start": ""
+		"start": "node index.js"
 	}
 }
