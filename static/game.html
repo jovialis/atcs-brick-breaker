@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles/global.css">
+        <link rel="stylesheet" href="styles/navigation.css">
+        <link rel="stylesheet" href="styles/game.css">
+        <script src="scripts/structure.js"></script>
+        <script src="scripts/utils.js"></script>
+        <meta charset="UTF-8">
+        <title>Play</title>
+    </head>
+    <body>
+        <div id="navigation">
+            <form>
+                <tr>
+                    <td>
+                        <a href="index.html">Home</a>
+                    </td>
+                    <td>
+                        <a href="rules.html">Rules</a>
+                    </td>
+                    <td>
+                        <a href="game.html">Play</a>
+                    </td>
+                </tr>
+            </form>
+        </div>
+        <div id="container">
+            <div id="hud-wrapper">
+                <h1>Brick Breaker</h1>
+                <div id="stats">
+                    <div id="current">
+                        <h2>This Game</h2>
+                        <span id="">Current Level:</span>
+                        <span id="current-level-name"> </span>
+                        <br>
+                        <span id="">Bricks Broken:</span>
+                        <span id="current-bricks-broken"> </span>
+                    </div>
+                    <div id="overall">
+                        <h2>Historical</h2>
+                        <span id="">Highest Level:</span>
+                        <span id="highest-level-name"> </span>
+                        <br>
+                        <span id="">Total Bricks Broken:</span>
+                        <span id="total-bricks-broken"> </span>
+                        <br>
+                        <span id="">Games Won:</span>
+                        <span id="total-games-won"> </span>
+                        <br>
+                        <span id="">Games Lost:</span>
+                        <span id="total-games-lost"> </span>
+                    </div>
+                </div>
+                <div id="status">
+                    <h3 id="won">You Won!</h3>
+                    <h3 id="lost">You Lost! :(</h3>
+                </div>
+                <div id="playagain">
+                    <a href="game.html" style="text-decoration: none; background-color: green; color: white; height: 40px; width: 100px; font-size: 32px;">Restart</a>
+                </div>
+            </div>
+            <!--Canvas where everything happens-->
+            <div id="canvas-wrapper">
+                <svg id="canvas"></svg>
+            </div>
+        </div>
+    </body>
+    <!--    Instantiate game after everything has been loaded for the first time-->
+    <script src="scripts/game.js" type="module"></script>
+    <!--    Break columns and rows -->
+    <script>
+        layout();
+    </script>
+</html>

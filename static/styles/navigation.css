@@ -1,0 +1,24 @@
+#navigation {
+    position: relative;
+    height: 50px;    
+    
+    padding-left: 0.5%;
+}
+
+#navigation form {
+    height: 100%;
+    
+    border-spacing: 10px 0px;
+    
+    border-bottom: 1px solid #606165;
+}
+
+#navigation form a {
+    text-decoration: none;
+    
+    color: #83848F;
+    
+    margin-right: 10px;
+    
+    font-size: 24px;
+}

@@ -12,6 +12,27 @@ h1, h2, h3, h4, h5 {
     font-weight: 700;
 }
 
+h1, h2, h3 {
+    color: #DFE0E8;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p, span {
+    color: #83848F;
+    font-size: 20px;
+}
+
 .font-color-darkest {
     color: #606165;
 }
@@ -21,7 +42,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .font-color-light {
-    color: ##DFE0E8;
+    color: #DFE0E8;
 }
 
 .font-color-lightest {
@@ -31,7 +52,7 @@ h1, h2, h3, h4, h5 {
 /*LAYOUT*/
 body {
     margin: 0;
-    
+
     background-color: #444447;
 }
 
